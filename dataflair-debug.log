@@ -1,0 +1,1080 @@
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\missi\Projects\App-portfolio\vault\codesite\views.py", line 15, in indexpage
+    return render(request, 'index.html', {'html': "page_title - Home", 'loans' : loans  })
+  File "C:\Program Files\Python38\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Program Files\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Program Files\Python38\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\missi\Projects\App-portfolio\vault\codesite\views.py", line 15, in indexpage
+    return render(request, 'index.html', {'html': "page_title - Home", 'loans' : loans  })
+  File "C:\Program Files\Python38\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Program Files\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Program Files\Python38\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\missi\Projects\App-portfolio\vault\codesite\views.py", line 15, in indexpage
+    return render(request, 'index.html', {'html': "page_title - Home", 'loans' : loans  })
+  File "C:\Program Files\Python38\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Program Files\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Program Files\Python38\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\missi\Projects\App-portfolio\vault\codesite\views.py", line 15, in indexpage
+    return render(request, 'index.html', {'html': "page_title - Home", 'loans' : loans  })
+  File "C:\Program Files\Python38\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Program Files\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Program Files\Python38\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+C:\Users\missi\Projects\App-portfolio\vault\vault\settings.py changed, reloading.
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+Not Found: /images/avatar/1.jpg
+Not Found: /images/logo2.png
+Not Found: /images/avatar/1.jpg
+Not Found: /images/logo2.png
+Not Found: /images/logo.png
+Not Found: /images/logo.png
+Not Found: /images/avatar/2.jpg
+Not Found: /images/avatar/2.jpg
+Not Found: /images/avatar/4.jpg
+Not Found: /images/avatar/4.jpg
+Not Found: /images/avatar/3.jpg
+Not Found: /images/avatar/3.jpg
+Not Found: /images/avatar/6.jpg
+Not Found: /images/avatar/6.jpg
+Not Found: /images/admin.jpg
+Not Found: /images/admin.jpg
+Internal Server Error: /login
+Traceback (most recent call last):
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\missi\Projects\App-portfolio\vault\codesite\views.py", line 38, in loginformpage
+    return render(request, 'login.html', {'title': " Login " })
+  File "C:\Program Files\Python38\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Program Files\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Program Files\Python38\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: login.html
+Internal Server Error: /login
+Traceback (most recent call last):
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\missi\Projects\App-portfolio\vault\codesite\views.py", line 38, in loginformpage
+    return render(request, 'login.html', {'title': " Login " })
+  File "C:\Program Files\Python38\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Program Files\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Program Files\Python38\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: login.html
+C:\Users\missi\Projects\App-portfolio\vault\vault\settings.py changed, reloading.
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+C:\Users\missi\Projects\App-portfolio\vault\codesite\models.py changed, reloading.
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+C:\Users\missi\Projects\App-portfolio\vault\codesite\models.py changed, reloading.
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+C:\Users\missi\Projects\App-portfolio\vault\codesite\models.py changed, reloading.
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+C:\Users\missi\Projects\App-portfolio\vault\codesite\models.py changed, reloading.
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+Internal Server Error: /api/savings/
+Traceback (most recent call last):
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Program Files\Python38\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\serializers.py", line 760, in data
+    ret = super().data
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\serializers.py", line 677, in to_representation
+    return [
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\query.py", line 276, in __iter__
+    self._fetch_all()
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\query.py", line 1261, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\query.py", line 57, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 1138, in execute_sql
+    sql, params = self.as_sql()
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 490, in as_sql
+    extra_select, order_by, group_by = self.pre_sql_setup()
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 52, in pre_sql_setup
+    order_by = self.get_order_by()
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 341, in get_order_by
+    order_by.extend(self.find_ordering_name(
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 720, in find_ordering_name
+    field, targets, alias, joins, path, opts, transform_function = self._setup_joins(pieces, opts, alias)
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 755, in _setup_joins
+    field, targets, opts, joins, path, transform_function = self.query.setup_joins(pieces, opts, alias)
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\query.py", line 1567, in setup_joins
+    path, final_field, targets, rest = self.names_to_path(
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\query.py", line 1483, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'transact_date' into field. Choices are: amount, duedate, duration, id, interest, isapproved, memberid, scheme
+Internal Server Error: /api/savings/
+Traceback (most recent call last):
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Program Files\Python38\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\serializers.py", line 760, in data
+    ret = super().data
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\serializers.py", line 677, in to_representation
+    return [
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\query.py", line 276, in __iter__
+    self._fetch_all()
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\query.py", line 1261, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\query.py", line 57, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 1138, in execute_sql
+    sql, params = self.as_sql()
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 490, in as_sql
+    extra_select, order_by, group_by = self.pre_sql_setup()
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 52, in pre_sql_setup
+    order_by = self.get_order_by()
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 341, in get_order_by
+    order_by.extend(self.find_ordering_name(
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 720, in find_ordering_name
+    field, targets, alias, joins, path, opts, transform_function = self._setup_joins(pieces, opts, alias)
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 755, in _setup_joins
+    field, targets, opts, joins, path, transform_function = self.query.setup_joins(pieces, opts, alias)
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\query.py", line 1567, in setup_joins
+    path, final_field, targets, rest = self.names_to_path(
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\query.py", line 1483, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'transact_date' into field. Choices are: amount, duedate, duration, id, interest, isapproved, memberid, scheme
+C:\Users\missi\Projects\App-portfolio\vault\codesite\api\restview.py changed, reloading.
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+C:\Users\missi\Projects\App-portfolio\vault\codesite\models.py changed, reloading.
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+C:\Users\missi\Projects\App-portfolio\vault\codesite\models.py changed, reloading.
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+C:\Users\missi\Projects\App-portfolio\vault\codesite\models.py changed, reloading.
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+Internal Server Error: /api/member/
+Traceback (most recent call last):
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Program Files\Python38\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\serializers.py", line 760, in data
+    ret = super().data
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\serializers.py", line 677, in to_representation
+    return [
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\query.py", line 276, in __iter__
+    self._fetch_all()
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\query.py", line 1261, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\query.py", line 57, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 1138, in execute_sql
+    sql, params = self.as_sql()
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 490, in as_sql
+    extra_select, order_by, group_by = self.pre_sql_setup()
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 52, in pre_sql_setup
+    order_by = self.get_order_by()
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 341, in get_order_by
+    order_by.extend(self.find_ordering_name(
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 720, in find_ordering_name
+    field, targets, alias, joins, path, opts, transform_function = self._setup_joins(pieces, opts, alias)
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 755, in _setup_joins
+    field, targets, opts, joins, path, transform_function = self.query.setup_joins(pieces, opts, alias)
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\query.py", line 1567, in setup_joins
+    path, final_field, targets, rest = self.names_to_path(
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\query.py", line 1483, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'latest_rank' into field. Choices are: address, age, birthdate, firstname, group, group_id, id, is_credible, lastname, loans, rank
+Internal Server Error: /api/member/
+Traceback (most recent call last):
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Program Files\Python38\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\serializers.py", line 760, in data
+    ret = super().data
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\serializers.py", line 677, in to_representation
+    return [
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\query.py", line 276, in __iter__
+    self._fetch_all()
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\query.py", line 1261, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\query.py", line 57, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 1138, in execute_sql
+    sql, params = self.as_sql()
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 490, in as_sql
+    extra_select, order_by, group_by = self.pre_sql_setup()
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 52, in pre_sql_setup
+    order_by = self.get_order_by()
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 341, in get_order_by
+    order_by.extend(self.find_ordering_name(
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 720, in find_ordering_name
+    field, targets, alias, joins, path, opts, transform_function = self._setup_joins(pieces, opts, alias)
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 755, in _setup_joins
+    field, targets, opts, joins, path, transform_function = self.query.setup_joins(pieces, opts, alias)
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\query.py", line 1567, in setup_joins
+    path, final_field, targets, rest = self.names_to_path(
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\query.py", line 1483, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'latest_rank' into field. Choices are: address, age, birthdate, firstname, group, group_id, id, is_credible, lastname, loans, rank
+C:\Users\missi\Projects\App-portfolio\vault\codesite\models.py changed, reloading.
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+Internal Server Error: /api/member/
+Traceback (most recent call last):
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Program Files\Python38\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\serializers.py", line 760, in data
+    ret = super().data
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\serializers.py", line 677, in to_representation
+    return [
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\query.py", line 276, in __iter__
+    self._fetch_all()
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\query.py", line 1261, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\query.py", line 57, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 1138, in execute_sql
+    sql, params = self.as_sql()
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 490, in as_sql
+    extra_select, order_by, group_by = self.pre_sql_setup()
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 52, in pre_sql_setup
+    order_by = self.get_order_by()
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 341, in get_order_by
+    order_by.extend(self.find_ordering_name(
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 720, in find_ordering_name
+    field, targets, alias, joins, path, opts, transform_function = self._setup_joins(pieces, opts, alias)
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 755, in _setup_joins
+    field, targets, opts, joins, path, transform_function = self.query.setup_joins(pieces, opts, alias)
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\query.py", line 1567, in setup_joins
+    path, final_field, targets, rest = self.names_to_path(
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\query.py", line 1483, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'latest_rank' into field. Choices are: address, age, birthdate, firstname, group, group_id, id, is_credible, lastname, loans, rank
+Internal Server Error: /api/member/
+Traceback (most recent call last):
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Program Files\Python38\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\serializers.py", line 760, in data
+    ret = super().data
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\serializers.py", line 677, in to_representation
+    return [
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\query.py", line 276, in __iter__
+    self._fetch_all()
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\query.py", line 1261, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\query.py", line 57, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 1138, in execute_sql
+    sql, params = self.as_sql()
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 490, in as_sql
+    extra_select, order_by, group_by = self.pre_sql_setup()
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 52, in pre_sql_setup
+    order_by = self.get_order_by()
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 341, in get_order_by
+    order_by.extend(self.find_ordering_name(
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 720, in find_ordering_name
+    field, targets, alias, joins, path, opts, transform_function = self._setup_joins(pieces, opts, alias)
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 755, in _setup_joins
+    field, targets, opts, joins, path, transform_function = self.query.setup_joins(pieces, opts, alias)
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\query.py", line 1567, in setup_joins
+    path, final_field, targets, rest = self.names_to_path(
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\query.py", line 1483, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'latest_rank' into field. Choices are: address, age, birthdate, firstname, group, group_id, id, is_credible, lastname, loans, rank
+C:\Users\missi\Projects\App-portfolio\vault\codesite\models.py changed, reloading.
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+Internal Server Error: /api/member/
+Traceback (most recent call last):
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Program Files\Python38\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\serializers.py", line 760, in data
+    ret = super().data
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\serializers.py", line 677, in to_representation
+    return [
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\query.py", line 276, in __iter__
+    self._fetch_all()
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\query.py", line 1261, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\query.py", line 57, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 1138, in execute_sql
+    sql, params = self.as_sql()
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 490, in as_sql
+    extra_select, order_by, group_by = self.pre_sql_setup()
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 52, in pre_sql_setup
+    order_by = self.get_order_by()
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 341, in get_order_by
+    order_by.extend(self.find_ordering_name(
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 720, in find_ordering_name
+    field, targets, alias, joins, path, opts, transform_function = self._setup_joins(pieces, opts, alias)
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 755, in _setup_joins
+    field, targets, opts, joins, path, transform_function = self.query.setup_joins(pieces, opts, alias)
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\query.py", line 1567, in setup_joins
+    path, final_field, targets, rest = self.names_to_path(
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\query.py", line 1483, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'latest_rank' into field. Choices are: address, age, birthdate, firstname, group, group_id, id, is_credible, lastname, loans, rank
+Internal Server Error: /api/member/
+Traceback (most recent call last):
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Program Files\Python38\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\serializers.py", line 760, in data
+    ret = super().data
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\serializers.py", line 677, in to_representation
+    return [
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\query.py", line 276, in __iter__
+    self._fetch_all()
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\query.py", line 1261, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\query.py", line 57, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 1138, in execute_sql
+    sql, params = self.as_sql()
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 490, in as_sql
+    extra_select, order_by, group_by = self.pre_sql_setup()
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 52, in pre_sql_setup
+    order_by = self.get_order_by()
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 341, in get_order_by
+    order_by.extend(self.find_ordering_name(
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 720, in find_ordering_name
+    field, targets, alias, joins, path, opts, transform_function = self._setup_joins(pieces, opts, alias)
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 755, in _setup_joins
+    field, targets, opts, joins, path, transform_function = self.query.setup_joins(pieces, opts, alias)
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\query.py", line 1567, in setup_joins
+    path, final_field, targets, rest = self.names_to_path(
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\query.py", line 1483, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'latest_rank' into field. Choices are: address, age, birthdate, firstname, group, group_id, id, is_credible, lastname, loans, rank
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+Internal Server Error: /api/member/
+Traceback (most recent call last):
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Program Files\Python38\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\serializers.py", line 760, in data
+    ret = super().data
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\serializers.py", line 677, in to_representation
+    return [
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\query.py", line 276, in __iter__
+    self._fetch_all()
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\query.py", line 1261, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\query.py", line 57, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 1138, in execute_sql
+    sql, params = self.as_sql()
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 490, in as_sql
+    extra_select, order_by, group_by = self.pre_sql_setup()
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 52, in pre_sql_setup
+    order_by = self.get_order_by()
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 341, in get_order_by
+    order_by.extend(self.find_ordering_name(
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 720, in find_ordering_name
+    field, targets, alias, joins, path, opts, transform_function = self._setup_joins(pieces, opts, alias)
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 755, in _setup_joins
+    field, targets, opts, joins, path, transform_function = self.query.setup_joins(pieces, opts, alias)
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\query.py", line 1567, in setup_joins
+    path, final_field, targets, rest = self.names_to_path(
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\query.py", line 1483, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'latest_rank' into field. Choices are: address, age, birthdate, firstname, group, group_id, id, is_credible, lastname, loans, rank
+Internal Server Error: /api/member/
+Traceback (most recent call last):
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Program Files\Python38\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\serializers.py", line 760, in data
+    ret = super().data
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\serializers.py", line 677, in to_representation
+    return [
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\query.py", line 276, in __iter__
+    self._fetch_all()
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\query.py", line 1261, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\query.py", line 57, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 1138, in execute_sql
+    sql, params = self.as_sql()
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 490, in as_sql
+    extra_select, order_by, group_by = self.pre_sql_setup()
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 52, in pre_sql_setup
+    order_by = self.get_order_by()
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 341, in get_order_by
+    order_by.extend(self.find_ordering_name(
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 720, in find_ordering_name
+    field, targets, alias, joins, path, opts, transform_function = self._setup_joins(pieces, opts, alias)
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 755, in _setup_joins
+    field, targets, opts, joins, path, transform_function = self.query.setup_joins(pieces, opts, alias)
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\query.py", line 1567, in setup_joins
+    path, final_field, targets, rest = self.names_to_path(
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\query.py", line 1483, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'latest_rank' into field. Choices are: address, age, birthdate, firstname, group, group_id, id, is_credible, lastname, loans, rank
+Internal Server Error: /api/member/
+Traceback (most recent call last):
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Program Files\Python38\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\serializers.py", line 760, in data
+    ret = super().data
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\serializers.py", line 677, in to_representation
+    return [
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\query.py", line 276, in __iter__
+    self._fetch_all()
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\query.py", line 1261, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\query.py", line 57, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 1138, in execute_sql
+    sql, params = self.as_sql()
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 490, in as_sql
+    extra_select, order_by, group_by = self.pre_sql_setup()
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 52, in pre_sql_setup
+    order_by = self.get_order_by()
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 341, in get_order_by
+    order_by.extend(self.find_ordering_name(
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 720, in find_ordering_name
+    field, targets, alias, joins, path, opts, transform_function = self._setup_joins(pieces, opts, alias)
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 755, in _setup_joins
+    field, targets, opts, joins, path, transform_function = self.query.setup_joins(pieces, opts, alias)
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\query.py", line 1567, in setup_joins
+    path, final_field, targets, rest = self.names_to_path(
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\query.py", line 1483, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'latest_rank' into field. Choices are: address, age, birthdate, firstname, group, group_id, id, is_credible, lastname, loans, rank
+Internal Server Error: /api/member/
+Traceback (most recent call last):
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Program Files\Python38\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\serializers.py", line 760, in data
+    ret = super().data
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Program Files\Python38\lib\site-packages\rest_framework\serializers.py", line 677, in to_representation
+    return [
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\query.py", line 276, in __iter__
+    self._fetch_all()
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\query.py", line 1261, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\query.py", line 57, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 1138, in execute_sql
+    sql, params = self.as_sql()
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 490, in as_sql
+    extra_select, order_by, group_by = self.pre_sql_setup()
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 52, in pre_sql_setup
+    order_by = self.get_order_by()
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 341, in get_order_by
+    order_by.extend(self.find_ordering_name(
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 720, in find_ordering_name
+    field, targets, alias, joins, path, opts, transform_function = self._setup_joins(pieces, opts, alias)
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 755, in _setup_joins
+    field, targets, opts, joins, path, transform_function = self.query.setup_joins(pieces, opts, alias)
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\query.py", line 1567, in setup_joins
+    path, final_field, targets, rest = self.names_to_path(
+  File "C:\Program Files\Python38\lib\site-packages\django\db\models\sql\query.py", line 1483, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'latest_rank' into field. Choices are: address, age, birthdate, firstname, group, group_id, id, is_credible, lastname, loans, rank
+C:\Users\missi\Projects\App-portfolio\vault\codesite\api\restview.py changed, reloading.
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+Internal Server Error: /login
+Traceback (most recent call last):
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\missi\Projects\App-portfolio\vault\codesite\views.py", line 38, in loginformpage
+    return render(request, 'login.html', {'title': " Login " })
+  File "C:\Program Files\Python38\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Program Files\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Program Files\Python38\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: login.html
+Internal Server Error: /login
+Traceback (most recent call last):
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python38\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\missi\Projects\App-portfolio\vault\codesite\views.py", line 38, in loginformpage
+    return render(request, 'login.html', {'title': " Login " })
+  File "C:\Program Files\Python38\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Program Files\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Program Files\Python38\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: login.html
+C:\Users\missi\Projects\App-portfolio\vault\vault\settings.py changed, reloading.
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+Not Found: /images/logo.png
+Not Found: /images/avatar/1.jpg
+Not Found: /images/logo.png
+Not Found: /images/logo2.png
+Not Found: /images/avatar/1.jpg
+Not Found: /images/logo2.png
+Not Found: /images/avatar/2.jpg
+Not Found: /images/avatar/2.jpg
+Not Found: /images/avatar/3.jpg
+Not Found: /images/avatar/3.jpg
+Not Found: /images/avatar/4.jpg
+Not Found: /images/avatar/4.jpg
+Not Found: /images/admin.jpg
+Not Found: /images/avatar/6.jpg
+Not Found: /images/admin.jpg
+Not Found: /images/avatar/6.jpg
+Not Found: /images/avatar/1.jpg
+Not Found: /images/avatar/1.jpg
+Not Found: /images/logo.png
+Not Found: /images/logo.png
+Not Found: /images/logo2.png
+Not Found: /images/avatar/2.jpg
+Not Found: /images/logo2.png
+Not Found: /images/avatar/2.jpg
+Not Found: /images/avatar/3.jpg
+Not Found: /images/avatar/3.jpg
+Not Found: /images/avatar/4.jpg
+Not Found: /images/avatar/4.jpg
+Not Found: /images/admin.jpg
+Not Found: /images/admin.jpg
+Not Found: /images/logo2.png
+Not Found: /images/avatar/1.jpg
+Not Found: /images/logo2.png
+Not Found: /images/logo.png
+Not Found: /images/avatar/1.jpg
+Not Found: /images/logo.png
+Not Found: /images/avatar/2.jpg
+Not Found: /images/avatar/2.jpg
+Not Found: /images/avatar/3.jpg
+Not Found: /images/avatar/3.jpg
+Not Found: /images/avatar/4.jpg
+Not Found: /images/avatar/4.jpg
+Not Found: /images/admin.jpg
+Not Found: /images/admin.jpg
+Not Found: /images/logo.png
+Not Found: /images/logo.png
+Not Found: /images/avatar/3.jpg
+Not Found: /images/avatar/3.jpg
+Not Found: /images/logo2.png
+Not Found: /images/logo2.png
+Not Found: /images/avatar/4.jpg
+Not Found: /images/avatar/4.jpg
+Not Found: /images/avatar/2.jpg
+Not Found: /images/avatar/1.jpg
+Not Found: /images/avatar/2.jpg
+Not Found: /images/avatar/1.jpg
+Not Found: /images/admin.jpg
+Not Found: /images/admin.jpg
+Not Found: /images/logo.png
+Not Found: /images/logo.png
+Not Found: /images/admin.jpg
+Not Found: /images/logo2.png
+Not Found: /images/admin.jpg
+Not Found: /images/avatar/4.jpg
+Not Found: /images/logo2.png
+Not Found: /images/avatar/2.jpg
+Not Found: /images/avatar/3.jpg
+Not Found: /images/avatar/1.jpg
+Not Found: /images/avatar/3.jpg
+Not Found: /images/avatar/4.jpg
+Not Found: /images/avatar/2.jpg
+Not Found: /images/avatar/1.jpg
+Not Found: /images/logo.png
+Not Found: /images/logo.png
+Not Found: /images/logo2.png
+Not Found: /images/logo2.png
+Not Found: /images/avatar/4.jpg
+Not Found: /images/avatar/4.jpg
+Not Found: /images/avatar/2.jpg
+Not Found: /images/avatar/2.jpg
+Not Found: /images/avatar/1.jpg
+Not Found: /images/avatar/3.jpg
+Not Found: /images/avatar/1.jpg
+Not Found: /images/avatar/3.jpg
+Not Found: /images/admin.jpg
+Not Found: /images/admin.jpg
+Not Found: /images/logo.png
+Not Found: /images/logo.png
+Not Found: /images/logo2.png
+Not Found: /images/logo2.png
+Not Found: /images/avatar/4.jpg
+Not Found: /images/avatar/4.jpg
+Not Found: /images/avatar/1.jpg
+Not Found: /images/avatar/1.jpg
+Not Found: /images/avatar/2.jpg
+Not Found: /images/avatar/2.jpg
+Not Found: /images/avatar/3.jpg
+Not Found: /images/admin.jpg
+Not Found: /images/avatar/3.jpg
+Not Found: /images/admin.jpg
+C:\Users\missi\Projects\App-portfolio\vault\vault\settings.py changed, reloading.
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+Not Found: /images/logo2.png
+Not Found: /images/logo2.png
+Not Found: /images/avatar/1.jpg
+Not Found: /images/avatar/1.jpg
+Not Found: /images/logo.png
+Not Found: /images/logo.png
+Not Found: /images/avatar/3.jpg
+Not Found: /images/avatar/3.jpg
+Not Found: /images/avatar/4.jpg
+Not Found: /images/avatar/4.jpg
+Not Found: /images/avatar/2.jpg
+Not Found: /images/avatar/2.jpg
+Not Found: /images/admin.jpg
+Not Found: /images/admin.jpg
+Not Found: /images/avatar/6.jpg
+Not Found: /images/avatar/6.jpg
+Not Found: /images/logo.png
+Not Found: /images/avatar/4.jpg
+Not Found: /images/avatar/2.jpg
+Not Found: /images/avatar/4.jpg
+Not Found: /images/avatar/2.jpg
+Not Found: /images/logo.png
+Not Found: /images/avatar/1.jpg
+Not Found: /images/avatar/3.jpg
+Not Found: /images/avatar/1.jpg
+Not Found: /images/logo2.png
+Not Found: /images/avatar/3.jpg
+Not Found: /images/logo2.png
+Not Found: /images/admin.jpg
+Not Found: /images/admin.jpg
+Not Found: /images/avatar/3.jpg
+Not Found: /images/avatar/3.jpg
+Not Found: /images/logo2.png
+Not Found: /images/avatar/1.jpg
+Not Found: /images/logo2.png
+Not Found: /images/avatar/4.jpg
+Not Found: /images/avatar/1.jpg
+Not Found: /images/avatar/4.jpg
+Not Found: /images/avatar/2.jpg
+Not Found: /images/logo.png
+Not Found: /images/avatar/2.jpg
+Not Found: /images/logo.png
+Not Found: /images/admin.jpg
+Not Found: /images/admin.jpg
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+Not Found: /admn
+Not Found: /admn
+Not Found: /images/logo.png
+Not Found: /images/logo.png
+Not Found: /images/avatar/1.jpg
+Not Found: /images/logo2.png
+Not Found: /images/avatar/1.jpg
+Not Found: /images/avatar/2.jpg
+Not Found: /images/logo2.png
+Not Found: /images/avatar/2.jpg
+Not Found: /images/avatar/4.jpg
+Not Found: /images/avatar/4.jpg
+Not Found: /images/admin.jpg
+Not Found: /images/admin.jpg
+Not Found: /images/avatar/3.jpg
+Not Found: /images/avatar/3.jpg
+Not Found: /images/logo.png
+Not Found: /images/logo.png
+Not Found: /images/avatar/1.jpg
+Not Found: /images/logo2.png
+Not Found: /images/avatar/1.jpg
+Not Found: /images/avatar/3.jpg
+Not Found: /images/logo2.png
+Not Found: /images/avatar/3.jpg
+Not Found: /images/avatar/4.jpg
+Not Found: /images/avatar/4.jpg
+Not Found: /images/admin.jpg
+Not Found: /images/admin.jpg
+Not Found: /images/avatar/2.jpg
+Not Found: /images/avatar/2.jpg
+Not Found: /api/loans
+Not Found: /api/loans
+Not Found: /images/avatar/2.jpg
+Not Found: /images/avatar/2.jpg
+Not Found: /images/avatar/4.jpg
+Not Found: /images/avatar/4.jpg
+Not Found: /images/avatar/3.jpg
+Not Found: /images/avatar/1.jpg
+Not Found: /images/avatar/3.jpg
+Not Found: /images/avatar/1.jpg
+Not Found: /images/admin.jpg
+Not Found: /images/admin.jpg
+Not Found: /images/logo.png
+Not Found: /images/logo.png
+Not Found: /images/logo2.png
+Not Found: /images/logo2.png
+Not Found: /images/logo.png
+Not Found: /images/avatar/2.jpg
+Not Found: /images/logo.png
+Not Found: /images/avatar/1.jpg
+Not Found: /images/avatar/2.jpg
+Not Found: /images/avatar/1.jpg
+Not Found: /images/avatar/3.jpg
+Not Found: /images/logo2.png
+Not Found: /images/avatar/4.jpg
+Not Found: /images/avatar/3.jpg
+Not Found: /images/logo2.png
+Not Found: /images/avatar/4.jpg
+Not Found: /images/admin.jpg
+Not Found: /images/admin.jpg
+Not Found: /images/logo.png
+Not Found: /images/logo.png
+Not Found: /images/logo2.png
+Not Found: /images/logo2.png
+Not Found: /images/avatar/1.jpg
+Not Found: /images/avatar/1.jpg
+Not Found: /images/avatar/3.jpg
+Not Found: /images/avatar/3.jpg
+Not Found: /images/avatar/4.jpg
+Not Found: /images/avatar/4.jpg
+Not Found: /images/avatar/2.jpg
+Not Found: /images/avatar/2.jpg
+Not Found: /images/admin.jpg
+Not Found: /images/admin.jpg
+Using proactor: IocpProactor
+Using proactor: IocpProactor

@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+{% from 'macro.html' import headerBlock as blockTxt , crumbsLink%}
+{% block content %}
+
+<div class="clearfix"></div>
+{{  crumbsLink('Terms','Links')  }}
+
+<div class="content">
+    <!-- Animated -->
+    <div class="animated fadeIn">
+
+            <div class="row">
+                <div class="col-md-12">
+                <div class="card">
+                  <div class="card-header">
+                    <strong class="card-title" v-if="headerText">Login</strong>
+                  </div>
+                  <div class="card-body card-block">
+                       <form action="/login" method="post" class="form-horizontal">
+                            <input type="hidden" name="csrfmiddlewaretoken" value="{{ csrf_token }}">
+                                    <div class="row form-group">
+                                        <div class="col col-md-3"><label for="hf-email" class=" form-control-label">Email</label></div>
+                                        <div class="col-12 col-md-9"><input type="text" id="hf-email" name="username" placeholder="Enter Email..." class="form-control"><span class="help-block">Please enter your email</span></div>
+                                    </div>
+                                    <div class="row form-group">
+                                        <div class="col col-md-3"><label for="hf-password" class=" form-control-label">Password</label></div>
+                                        <div class="col-12 col-md-9"><input type="password" id="hf-password" name="password" placeholder="Enter Password..." class="form-control"><span class="help-block">Please enter your password</span></div>
+                                    </div>
+
+
+                            <div class="footer">
+                                <button type="submit" class="btn btn-primary btn-sm">
+                                    <i class="fa fa-dot-circle-o"></i> Submit
+                                </button>
+                                <button type="reset" type="submit" class="btn btn-danger btn-sm">
+                                    <i class="fa fa-ban"></i> Reset
+                                </button>
+                            </div>
+                         </form>
+                        </div>
+                  </div>
+                </div>
+              </div>
+
+
+    </div>
+  </div>
+
+{% endblock %}
