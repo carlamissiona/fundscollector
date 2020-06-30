@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% from 'macro.html' import headerBlock as blockTxt , crumbsLink%}
+{% block content %}
+
+<div class="clearfix"></div>
+{{  crumbsLink('Member Savings','Links')  }}
+
+<div class="content">
+    <!-- Animated -->
+    <div class="animated fadeIn">
+          <div class="row">
+                <div class="col-md-12">
+                <div class="card">
+                  <div class="card-header">
+                    <strong class="card-title" v-if="headerText">Group Loansss  S</strong>
+                  </div>
+                  <div class="card-body">
+                    {{ object }}
+                        <li class="one_quarter">
+                          <h3>  {{ object.memberid }}</h3>
+                          <h4>  {{ object.amount }}</h4>
+                          <h4>  {{ object.scheme}}</h4>
+                        </li>
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+    </div>
+  </div>
+
+{% endblock %}

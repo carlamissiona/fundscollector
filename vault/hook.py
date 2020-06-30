@@ -1,6 +1,6 @@
 import logging
 
-class Fundshooks:
+class VaultSamplehook:
     def __init__(self, get_response):
         self.get_response = get_response
 
@@ -13,8 +13,8 @@ class Fundshooks:
 
         if str(response.status_code) == "404":
             logging.error(   response.status_code   )
-            logging.error(   "===========NOTFOUND")
-            logging.error(   "===========NOTFOUND")
+            logging.error(   "===========NOTFOUND=============")
+            logging.error(   "===========NOTFOUND=============")
 
             # Other variables or methods
             # response.__setitem__("Access-Control-Allow-Origin", "*")

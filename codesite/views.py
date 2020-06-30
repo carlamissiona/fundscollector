@@ -3,6 +3,7 @@ from django.http import HttpResponse,HttpResponseRedirect
 from django.contrib.auth import authenticate, login,logout
 from codesite.models import Loan, Member,Group
 from django.contrib.auth.forms import AuthenticationForm
+from django.contrib.auth.decorators import login_required
 
 # # from django.views.decorators.http import require_POST  -- use with decorator above methofd
 # @require_POST
@@ -37,17 +38,17 @@ def loginformpage(request):
         form = AuthenticationForm()
         return render(request, 'login.html', {'title': " Login " })
 
-
 def joinusformpage(request):
     return render(request, 'login.html', {'title': " Registration " })
 
+@login_required(login_url="/login/")
 def partnerspage(request):
     return render(request, 'login.html', {'title': " Registration " })
 
 def loanspage(request):
     return render(request, 'loans.html', {'title': " List of Loans " })
 
-    
+@login_required
 def signout(request):
     logout(request)
     return redirect('/about')

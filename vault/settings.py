@@ -51,7 +51,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    # 'fundscollector.hook.Fundshooks',
+    'vault.hook.VaultSamplehook',
 ]
 
 ROOT_URLCONF = 'vault.urls'
@@ -76,7 +76,7 @@ TEMPLATES = [
             os.path.join(BASE_DIR, 'templates/jinja2'),
         ],
         'APP_DIRS': False,
-     
+
     },
 
 ]

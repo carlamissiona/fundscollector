@@ -46,8 +46,8 @@ class Savings(models.Model):
     scheme = models.CharField(max_length=100)
     isapproved = models.CharField(max_length=100)
     duration =  models.CharField(max_length=100, null=True)
-    duedate = models.DateTimeField('Loan Due Date',null=True)
-    transact_date = models.DateTimeField('Transact Date',null=True)
+    duedate = models.DateField('Loan Due Date', null=True )
+    transact_date = models.DateTimeField('Transact Date',auto_now_add=True, null= True)
 
 
 # class Member(models.Model):

@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+{% from 'macro.html' import headerBlock as blockTxt , crumbsLink%}
+{% block content %}
+
+<div class="clearfix"></div>
+{{  crumbsLink('Member Savings','Links')  }}
+
+<div class="content">
+    <!-- Animated -->
+    <div class="animated fadeIn">
+
+          <div class="row">
+                <div class="col-md-12">
+                <div class="card">
+                  <div class="card-header">
+                    <strong class="card-title" v-if="headerText">Group Loans</strong>
+                  </div>
+                  <div class="card-body">
+
+                    <div id="gallery">
+                    	 <h1>Add Savings</h1>
+                          <form method="POST" action="/passbook/add/savings" >
+                            <fieldset>
+                              <input type="hidden" name="csrfmiddlewaretoken" value="{{ csrf_token }}">
+
+                                      <h3>Amount</h3>
+
+                                        {{ form.amount.errors }}
+                                        {{ form.amount }}
+                                      <h3>Amount</h3>
+
+                                        {{ form.amount.errors }}
+                                        {{ form.interest }}
+
+                                    <h3>Scheme</h3>
+
+                                        {{ form.scheme_field.errors }}
+                                        {{ form.scheme_field }}
+
+                                    <h3>Duration</h3>
+
+                                        {{ form.duration.errors }}
+                                        {{ form.duration }}
+
+                                    <h3>Due date</h3>
+
+                                        {{ form.duedate.errors }}
+                                        {{ form.duedate }}
+
+
+                                <button type="submit" value="Submit">Submit</button>
+
+                              <br><br>
+
+                            </fieldset>
+                          </form>
+                     </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+    </div>
+  </div>
+
+
+
+
+{% endblock %}
