@@ -26,7 +26,7 @@ class Loan(models.Model):
     installment_amount = models.DecimalField(max_digits=10,decimal_places=2, default=Decimal('0.0000'))
     scheme = models.CharField(max_length=100)
     interest = models.DecimalField(max_digits=10,decimal_places=2,default=Decimal('0.0000'))
-    is_approved = models.BooleanField(default=False)
+    is_approved = models.BooleanField(default=False, null=True)
     duration =  models.CharField(max_length=100, null=True)
     duedate = models.DateTimeField('Loan Due Date',null=True)
 

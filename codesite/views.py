@@ -10,6 +10,9 @@ from django.contrib.auth.decorators import login_required
 # def cart_add(request, product_id):
 
 from django.views import View
+
+ 
+
 # Create your views here.
 def indexpage(request):
     loans = Loan.objects.all().order_by('-duedate')[:12]

@@ -13,6 +13,7 @@ router.register(r'/member', restview.MemberViewSet)
 router.register(r'/group', restview.GroupViewSet)
 router.register(r'/loanpayment', restview.LoanPaymentsViewSet)
 router.register(r'/savings', restview.SavingsViewSet)
+# router.register(r'/savings/passdue',restview.SavingsViewSet)
 
 urlpatterns = [
 
@@ -27,7 +28,9 @@ urlpatterns = [
 	# path('passbook', views.signout),
 	path('passbook/savings', userview.SavingsListView.as_view() ),
 	path('passbook/savings/<int:id>', userview.SavingsDetailView.as_view() ),
+	path('passbook/savings/print/<int:id>', userview.SavingsDetailView.as_view() ),
 	path('passbook/add/savings', userview.AddSavingsPage ),
+	path('passbook/add/loans', userview.AddLoansPage ),
 	# path('passbook/loans', views.signout),
 
 

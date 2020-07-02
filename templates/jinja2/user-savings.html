@@ -8,8 +8,56 @@
 <div class="content">
     <!-- Animated -->
     <div class="animated fadeIn">
-          <div class="row">
-                <div class="col-md-12">
+      <div class="row">
+        <!-- {% for field in savings_list %}
+            <li class="one_quarter">
+              <h3>  {{ field.memberid }}</h3>
+              <h4>  {{ field.amount }}</h4>
+              <h4>  {{ field.scheme}}</h4>
+            </li>
+
+          {% endfor %} -->
+            <div class="col-xl-8">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="box-title">Your Savings </h4>
+                    </div>
+                    <div class="card-body--">
+                        <div class="table-stats order-table ov-h">
+                            <table class="table ">
+                                <thead>
+                                    <tr>
+                                        <th class="serial">#</th>
+                                        <th>Transact Id</th>
+                                        <th>Payers Id</th>
+                                        <th>Amount</th>
+                                        <th>Scheme</th>
+                                        <th>View</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for field in savings_list %}
+                                    <tr>
+                                        <td class="serial">1.</td>
+
+                                        <td> #00{{ field.id }}0</td>
+                                        <td> <span class="memberid">{{ field.memberid }}</span> </td>
+                                        <td> <span class="amount">{{ field.amount }}</span> </td>
+                                        <td><span class="scheme">{{ field.scheme }}</span></td>
+                                        <td>
+                                            <span class="badge badge-complete">  <a href="/passbook/savings/{{ field.id }}">Receipt </a></span>
+                                        </td>
+                                    </tr>
+                                      {% endfor %}
+
+                                </tbody>
+                            </table>
+                        </div> <!-- /.table-stats -->
+                    </div>
+                </div> <!-- /.card -->
+            </div>
+
+                <!-- <div class="col-md-12">
                 <div class="card">
                   <div class="card-header">
                     <strong class="card-title" v-if="headerText">Group Loans  S</strong>
@@ -26,8 +74,8 @@
 
                   </div>
                 </div>
-              </div>
-            </div>
+              </div> -->
+        </div>
 
 
 

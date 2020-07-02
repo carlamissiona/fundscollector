@@ -9,23 +9,50 @@
     <!-- Animated -->
     <div class="animated fadeIn">
           <div class="row">
-                <div class="col-md-12">
+            <div class="col-xl-8">
                 <div class="card">
-                  <div class="card-header">
-                    <strong class="card-title" v-if="headerText">Group Loansss  S</strong>
-                  </div>
-                  <div class="card-body">
-                    {{ object }}
-                        <li class="one_quarter">
-                          <h3>  {{ object.memberid }}</h3>
-                          <h4>  {{ object.amount }}</h4>
-                          <h4>  {{ object.scheme}}</h4>
-                        </li>
+                    <div class="card-body">
+                        <h4 class="box-title">Your Savings </h4>
+                    </div>
+                    <div class="card-body--">
+                        <div class="table-stats order-table ov-h">
+                            <table class="table ">
+                                <thead>
+                                    <tr>
+                                        <th class="serial">#</th>
+                                        <th>Transact Id</th>
+                                        <th>Payers Id</th>
+                                        <th>Amount</th>
+                                        <th>Scheme</th>
+                                        <th>Transact Date</th>
+                                        <th>View</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                    <tr>
+                                        <td class="serial">1.</td>
+
+                                        <td> #00{{ object[0].id }}0</td>
+                                        <td> <span class="memberid">{{ object[0].memberid }}</span> </td>
+                                        <td> <span class="amount">{{ object[0].amount }}</span> </td>
+                                        <td><span class="scheme">{{ object[0].scheme.capitalize()  }}</span></td>
+                                        <td><span class="scheme">{{ object[0].transact_date }}</span></td>
+                                        <td>
+                                            <a href="/passbook/savings/print/{{ object[0].id }}"><span class="badge badge-complete">Print</span></a>
+                                        </td>
+
+                                    </tr>
 
 
-                  </div>
-                </div>
-              </div>
+                                </tbody>
+                            </table>
+                        </div> <!-- /.table-stats -->
+                    </div>
+                </div> <!-- /.card -->
+            </div>
+
+
             </div>
 
 

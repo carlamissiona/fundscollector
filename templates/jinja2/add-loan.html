@@ -1,0 +1,83 @@
+{% extends 'base.html' %}
+{% from 'macro.html' import headerBlock as blockTxt , crumbsLink%}
+{% block content %}
+
+<div class="clearfix"></div>
+{{  crumbsLink('Member Savings','Links')  }}
+
+<div class="content">
+    <!-- Animated -->
+    <div class="animated fadeIn">
+
+          <div class="row">
+                <div class="col-md-12">
+                <div class="card">
+                  <div class="card-header">
+                    <strong class="card-title" v-if="headerText">Group Loans</strong>
+                  </div>
+                  <div class="card-body">
+
+                    <div id="gallery">
+                    	 <h1>Add Loan</h1>
+                          <form method="POST" action="/passbook/add/loans" >
+                            <fieldset>
+                              <input type="hidden" name="csrfmiddlewaretoken" value="{{ csrf_token }}">
+                                      {{ form.total_amount.errors }}
+                                      <div class="form-group">
+                                          <label for="company" class=" form-control-label">Amount</label>
+                                          {{ form.total_amount }}
+                                      </div>
+
+                                        {{ form.installment_amount.errors }}
+                                      <div class="form-group">
+                                          <label for="company" class=" form-control-label">Installment</label>
+                                        {{ form.installment_amount }}
+                                      </div>
+
+                                      {{ form.interest.errors }}
+                                      <div class="form-group">
+                                          <label for="company" class=" form-control-label">Interest</label>
+                                        {{ form.interest }}
+                                      </div>
+
+                                      {{ form.scheme_field.errors }}
+                                      <div class="form-group">
+                                          <label for="company" class=" form-control-label">Scheme</label>
+                                        {{ form.scheme_field }}
+                                      </div>
+                                      {{ form.duration.errors }}
+                                      <div class="form-group">
+                                          <label for="company" class=" form-control-label">Duration</label>
+                                      {{ form.duration }}
+                                      </div>
+                                    {{ form.duedate.errors }}
+                                      <div class="form-group">
+                                          <label for="company" class=" form-control-label">Due Date</label>
+                                          {{ form.duedate }}
+                                      </div>
+ 
+
+                                <button type="submit" value="Submit">Submit</button>
+
+                              <br><br>
+
+                            </fieldset>
+                          </form>
+                     </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+    </div>
+  </div>
+
+
+
+
+{% endblock %}

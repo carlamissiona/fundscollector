@@ -1,5 +1,5 @@
 from codesite.models import Savings, Loan
-from codesite.user.forms import FormSavings
+from codesite.user.forms import FormSavings, FormLoans
 from django.http import HttpResponse,HttpResponseRedirect
 from django.shortcuts import render,get_object_or_404,redirect
 from django.views.generic.base import TemplateView , View
@@ -38,6 +38,41 @@ class SavingsListView(SavingsObjectMixin,ListView):
         qs.filter(memberid=self.request.user.id)
         return qs.filter(memberid=self.request.user.id)
 
+def AddLoansPage(request):
+    html = 'Pay Savings'
+    context = {  'page_title' : 'Add Loans' }
+    logging.error("Loan Loan Loan")
+    # logging.error(request)
+    # logging.error(vars(request))
+    add_loans = FormLoans()
+    if request.method == 'POST':
+        add_loans = FormLoans(request.POST)
+        logging.error("Request ID")
+        logging.error("Request ID")
+        logging.error(request.user.id)
+        if add_loans.is_valid():
+            try:
+                logging.error("valid form")
+                l1 = Loan(memberid=request.user.id, total_amount=add_loans.cleaned_data["total_amount"] ,
+                                        installment_amount=add_loans.cleaned_data["installment_amount"],
+                                        interest=add_loans.cleaned_data["interest"] ,
+                                        scheme=add_loans.cleaned_data["scheme_field"] ,
+                                        duration=add_loans.cleaned_data["duration"],
+                                        duedate=add_loans.cleaned_data["duedate"], )
+                l1.save()
+
+            except  Exception as inst:
+              logging.warning("An exception occurred")
+              logging.error("An exception occurred")
+              logging.error(type(inst))
+              logging.warning( inst.args )
+
+              raise
+        return HttpResponseRedirect('/tos')
+    else:
+        html = 'Pay Savings In Your Nearest 7Eleven Store'
+
+    return render(request, 'add-loan.html', {'html': html, 'form': add_loans} )
 def AddSavingsPage(request):
     html = 'Pay Savings'
     context = {  'page_title' : 'Add Savings' }
